@@ -1,0 +1,1 @@
+This repository demonstrates a potential issue with the `removeIf` function in Kotlin.  When used with collections that are conceptually immutable (e.g., when you expect the original collection to remain unchanged), the in-place modification can lead to errors. The example shows the difference between using `removeIf` on a `MutableList` and a `MutableSet`.
